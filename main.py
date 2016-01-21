@@ -3,10 +3,10 @@ from telebot import types
 import requests
 import simplejson as json
 
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = '164461037:AAHnqh2FvPhKTyp4VKNBxMFsDd4BPHLBPbg'
 API_PATH = 'http://api.vajehyab.com/v2/public'
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(token)
 
 
 @bot.message_handler(commands=['start'])
